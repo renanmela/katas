@@ -11,7 +11,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    void testFizzByHasThree(){
+    void testFizzHavingThree(){
         FizzBuzz fizzBuzz = new FizzBuzz(37);
         assertEquals("Fizz", fizzBuzz.toFizzBuzz());
     }
@@ -23,7 +23,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    void testBuzzByHasFive(){
+    void testBuzzHavingFive(){
         FizzBuzz fizzBuzz = new FizzBuzz(58);
         assertEquals("Buzz", fizzBuzz.toFizzBuzz());
     }
